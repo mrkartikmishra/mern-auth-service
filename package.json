@@ -1,0 +1,19 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Auth service for the MERN stack pizza application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkartikmishra/mern-auth-service.git"
+  },
+  "author": "Kartik Mishra <kartikmishra.km44@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkartikmishra/mern-auth-service/issues"
+  },
+  "homepage": "https://github.com/mrkartikmishra/mern-auth-service#readme"
+}
