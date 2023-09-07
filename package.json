@@ -21,6 +21,12 @@
   "bugs": {
     "url": "https://github.com/mrkartikmishra/mern-auth-service/issues"
   },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --check",
+      "eslint --max-warning=0"
+    ]
+  },
   "homepage": "https://github.com/mrkartikmishra/mern-auth-service#readme",
   "devDependencies": {
     "@types/node": "^20.5.9",
@@ -29,6 +35,7 @@
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
