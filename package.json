@@ -24,7 +24,7 @@
   "lint-staged": {
     "*.ts": [
       "prettier --check",
-      "eslint --max-warning=0"
+      "eslint --max-warnings=0"
     ]
   },
   "homepage": "https://github.com/mrkartikmishra/mern-auth-service#readme",
@@ -40,5 +40,8 @@
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
